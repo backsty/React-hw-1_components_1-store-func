@@ -3,6 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://backsty.github.io/React-hw-1_components_1-store-func/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backsty/React-hw-1_components_1-store-func.git"
+  },
   "scripts": {
     "dev": "vite --port 3000 --open",
     "build": "tsc && vite build",
