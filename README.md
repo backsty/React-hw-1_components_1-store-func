@@ -1,6 +1,6 @@
 # Store Item Component
 
-[![Deploy to GitHub Pages](https://github.com/backsty/store-func/actions/workflows/deploy.yml/badge.svg)](https://github.com/backsty/store-func/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/backsty/React-hw-1_components_1-store-func/actions/workflows/deploy.yml/badge.svg)](https://github.com/backsty/React-hw-1_components_1-store-func/actions/workflows/deploy.yml)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.0-blue?logo=react)](https://reactjs.org/)
@@ -10,7 +10,7 @@
 
 ## 🚀 Demo
 
-[Посмотреть демо](https://backsty.github.io/store-func/)
+[Посмотреть демо](https://backsty.github.io/React-hw-1_components_1-store-func/)
 
 ![Превью проекта](./src/assets/img/preview.png)
 
