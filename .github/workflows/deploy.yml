@@ -12,28 +12,29 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-push:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'yarn'
 
-      - name: Install Dependencies
-        working-directory: ${{ matrix.project }}
+      - name: Install dependencies 📦
         run: yarn install --frozen-lockfile
 
-      - name: Build
+      - name: Build 🔧
         run: yarn build
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
           clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
