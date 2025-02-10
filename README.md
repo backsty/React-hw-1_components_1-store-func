@@ -1,3 +1,31 @@
+# Store Item Component
+
+[![Deploy to GitHub Pages](https://github.com/backsty/store-func/actions/workflows/deploy.yml/badge.svg)](https://github.com/backsty/store-func/actions/workflows/deploy.yml)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19.0-blue?logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.0-blue?logo=vite)](https://vitejs.dev/)
+
+> Функциональный React-компонент для отображения информации о товаре в интернет-магазине
+
+## 🚀 Demo
+
+[Посмотреть демо](https://backsty.github.io/store-func/)
+
+![Превью проекта](./src/assets/img/preview.png)
+
+## ✨ Особенности
+
+- ⚛️ Построен на React 19
+- 📘 Написан на TypeScript
+- 🎨 Адаптивный дизайн
+- ✅ Валидация пропсов с PropTypes
+- 🔄 Красивые анимации
+- 📱 Поддержка мобильных устройств
+
+## 📑 Задание
+
+
 Страница интернет-магазина
 ===
 
@@ -66,4 +94,8 @@ return (
 
 Используйте расположенный в этом каталоге CSS для стилизации.
 
-**Необязательная часть задачи (со звездочкой)**: задействуйте prop-types в реализации проекта.
+Задействуйте prop-types в реализации проекта.
+
+
+---
+Сделано с ❤️ и React
